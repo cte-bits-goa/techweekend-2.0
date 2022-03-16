@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html style="overflow-x: hidden">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Home - CTE TechWeekend</title>
+    <meta name="description" content="TechWeekend 2021" />
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap/css/bootstrap.min.css?h=c4031fd3279b72e347722c4068ca6ef9"
+    />
+    <link
+      rel="manifest"
+      href="manifest.json?h=eed4d16da80411bc190c3c04527f71d5"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/untitled.css?h=35b9b19b5770cdb9e6538753ee1ff735"
+    />
+  </head>
+
+  <body
+    class="
+      d-flex
+      flex-column flex-grow-1 flex-shrink-1 flex-fill
+      align-items-center align-content-center
+    "
+    style="
+      background: url('/assets/img/TechWeekend_light2_copy.svg'),
+        #ffffff;
+      background-size: contain, auto;
+      
+        width:100%;
+        overflow-x:hidden;
+        overflow-y:hidden;
+
+    "
+  >
+    <nav
+      class="
+        navbar navbar-dark navbar-expand-lg
+        fixed-top
+        bg-dark
+        navbar-custom
+      "
+      style="
+        color: rgb(255, 255, 255);
+        background: linear-gradient(white 95%, rgb(255, 255, 255) 100%),
+          rgb(248, 248, 248);
+        height: 120;
+        max-height: 120;
+        width: 100vw;
+      "
+    >
+      <div class="container">
+        <a href="https://techweekend.bpgc-cte.org/"
+          ><img
+            src="assets/img/cte-logo.png?h=5a0f8901967a21cd2e8638b2fc203321"
+            style="
+              width: 100;
+              height: 100;
+              max-width: 100;
+              max-height: 100px;
+            " /></a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navbarResponsive"
+          style="
+            color: var(--bs-blue);
+            width: 51;
+            height: 51;
+            margin: 4;
+            padding: 0 0;
+            background: url('https://pics.freeicons.io/uploads/icons/png/15211315791553239378-512.png'),
+              #45b334;
+            background-size: contain, auto;
+          "
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span
+            class="navbar-toggler-icon"
+            style="
+              color: rgb(255, 252, 252);
+              background: url('https://pics.freeicons.io/uploads/icons/png/15211315791553239378-512.png'),
+                rgba(255, 255, 255, 0.14);
+            "
+          ></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarResponsive"
+          style="border-color: rgb(0, 0, 0); color: rgb(0, 0, 0)"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                data-bss-hover-animate="shake"
+                href="#events"
+                style="border-color: rgb(0, 0, 0); color: rgb(0, 0, 0)"
+                >Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bss-hover-animate="shake"
+                href="talks.html"
+                style="color: rgb(0, 0, 0)"
+                >talks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bss-hover-animate="shake"
+                href="winners.html"
+                style="color: rgb(0, 0, 0)"
+                >Winners</a
+              >
+            </li>
+            <li class="nav-item"></li>
+            <!-- <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="shake" href="#" style="color: rgb(0,0,0);">Timeline</a></li> -->
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                data-bss-hover-animate="shake"
+                href="https://forum.bpgc-cte.org/"
+                target="_blank"
+                style="color: rgb(0, 0, 0)"
+                >Techforums</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                data-bss-hover-animate="shake"
+                href="https://bpgc-cte.org/"
+                target="_blank"
+                style="color: rgb(0, 0, 0)"
+                >website</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="text-center text-white masthead"
+      style="
+        background: rgba(255, 255, 255, 0);
+        height: 100vh;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateY(3%);
+      "
+    >
+      <div class="masthead-content">
+        <div class="container">
+          <h1
+            class="masthead-heading mb-0"
+            style="
+              font-family: Lato, sans-serif;
+              color: #45b334;
+              transform: scale(0.72);
+              background: rgba(132, 127, 127, 0.08);
+            "
+          >
+            CTE TechWeekend
+          </h1>
+          <h2
+            class="masthead-subheading mb-0"
+            style="
+              font-family: Lato, sans-serif;
+              color: #45b334;
+              background: rgba(150, 149, 149, 0);
+            "
+          >
+            Summer&nbsp;<strong>2021</strong><br />
+          </h2>
+          <h1 style="color: #45b334; transform: scale(0.6)">
+            Associate Sponsor :&nbsp;<a href="https://www.geeksforgeeks.org/"
+              ><img
+                src="assets/img/GFG%20LOGO-3%20(1).png?h=161d3763c8528dff49daa8b164e866c5"
+                style="transform: scale(1); min-width: 4vw; min-height: 4vh; max-width: 8vw;"
+            /></a>
+          </h1>
+        </div>
+      </div>
+    </header>
+    <section id="events" style="background: #f7f7f7" >
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="
+            background: #f7f7f7;
+            border-color: rgb(43, 234, 26);
+            border-radius: 17px;
+          "
+        >
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/competitive.jpg?h=42e03e6ea852a7add1e621f650f0af78"
+                style="max-height: 35vh; max-width: 60vw"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4" style="font-size: 40px">
+                #include &lt;techweed.h&gt;
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                ALGOMANIAX
+              </h1>
+              <p class="text-start" style="color: rgb(33, 37, 41)">
+                Competitive coding is a mind sport that shall give you an
+                adrenaline rush. There will be about 5 questions that will
+                challenge you on logic, data structures, and implementation. The
+                event will be hosted on CodeChef and is open to all users.<br /><br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    9th July<br />9pm to 11:30pm<br />₹10000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="background: #ffffff; border-radius: 17px"
+        >
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/trading.jpg?h=ddd93c4e42efd53709ecd543a8515e11"
+                style="max-height: 35vh; max-width: 60vw;"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <h2
+                class="display-4"
+                style="
+                  background: #ffffff;
+                  font-size: 40px;
+                  font-family: Catamaran, sans-serif;
+                "
+              >
+                Contest 2<br />
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                Club
+              </h1>
+              <p style="background: #ffffff">
+                lorem ipsum&nbsp;<br /> lorem ipsum&nbsp;<br />T
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    10th-17th July<br />Starts and Ends at 6pm<br />₹25000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              onclick="window.open('https://bp-gc.in/Tw21_mocktrading','_blank');"
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="
+            background: #f7f7f7;
+            border-color: rgb(43, 234, 26);
+            border-radius: 17px;
+          "
+        >
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/consulting.jpg?h=e1d10b58514a3326b13232047547c89e"
+                style="max-height: 35vh; max-width: 60vw;"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4" style="font-size: 40px">
+                Consulting Case Study
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                BITS GOA CONSULTING CLUB<br />
+              </h1>
+              <p class="text-start" style="color: rgb(33, 37, 41)">
+                CTE in association with BITS Goa Consulting Club brings you case
+                study competition, the best practical exercise of your grey
+                cells that uses your mental faculties and decision-making
+                skills.<br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    5th-8th July<br />All Day<br />₹3000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section-->
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="background: #ffffff; border-radius: 17px"
+        >
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/arduino_open.jpg?h=ddd93c4e42efd53709ecd543a8515e11"
+                style="max-height: 37vh; max-width: 65vw;"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <h2
+                class="display-4"
+                style="
+                  background: #ffffff;
+                  font-size: 40px;
+                  font-family: Catamaran, sans-serif;
+                "
+              >
+                Arduino Open<br />
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                ELECTRONICS AND ROBOTICS CLUB<br />
+              </h1>
+              <p style="background: #ffffff">
+                It's amazing how you can make something as functional as a
+                robotic arm at the same time as trivial as blinking an LED with
+                the same board. With an Arduino the only limit is your
+                imagination and thinking; you can make mind-blowing stuff
+                happen. So let that current flow through the processor of your
+                brain with Arduino Open, presented by CTE in association with
+                ERC. Don't worry about hardware, we will be using TinkerCAD for
+                the event. The event is for individual participants. Complete
+                the tasks to win exciting prizes.<br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    7th July<br />6:00 PM to 8:00 PM<br />₹5000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="
+            background: #f7f7f7;
+            border-color: rgb(43, 234, 26);
+            border-radius: 17px;
+          "
+        >
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/ctf.jpeg?h=08296d3033a48274ed6032a3b503666c"
+                style=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4" style="font-size: 40px">
+                Capture The Flag
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                BITS KRIEG<br />
+              </h1>
+              <p class="text-start" style="color: rgb(33, 37, 41)">
+                CTE in association with BITS KRIEG brings you an ethical<br />
+                hacking capture the flag event modeled around flaws in<br />
+                real-life internet systems. Questions will be from beginner
+                to<br />
+                intermediate level.<br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    5th-7th July<br />All Day [12pm - 12pm]<br />₹10000+<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="background: #ffffff; border-radius: 17px"
+        >
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/CC.jpg?h=1b522c495d29eedf4516925efa877632"
+                style="max-height: 35vh"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <h2
+                class="display-4"
+                style="
+                  background: #ffffff;
+                  font-size: 40px;
+                  font-family: Catamaran, sans-serif;
+                "
+              >
+                Curiosity Challenge<br />
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                SEDS CELESTIA<br />
+              </h1>
+              <p style="background: #ffffff">
+                Challenge yourself through multiple stages of mind boggling questions. These questions would not question your knowledge but your logic. Register for this challenge and attempt problems to test not only science logic but also your creativity. Its time for you to polish your thinking cap and put it on for some fun!<br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    8th July - 11th July<br />All day<br />₹5000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+Register            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="
+            background: #f7f7f7;
+            border-color: rgb(43, 234, 26);
+            border-radius: 17px;
+          "
+        >
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/sedss.jpg"
+                style="max-height: 40vh "
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4" style="font-size: 40px">
+                Destination Apogee
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                SEDS CELESTIA<br />
+              </h1>
+              <p class="text-start" style="color: rgb(33, 37, 41)">
+                The event is aimed at making model rocket simulation. We will be making a model rocket simulation based on certain guidelines, a workshop will be kept where you will be shown a tutorial on openrocket. Then you can compete to be the best and highest. No pre requisites required.<br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    5th-11th July<br />All Day<br />₹3000+<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <section>
+        <div class="container">
+          <div
+            class="row align-items-center"
+            style="background: #ffffff; border-radius: 17px"
+          >
+            <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                <img
+                  class="img-thumbnail img-fluid"
+                  src="assets/img/ML.jpeg?h=61bf43109b986e4c2797dade5b40607b"
+                  style="max-height: 35vh;"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-2">
+              <div class="p-5">
+                <h2
+                  class="display-4"
+                  style="
+                    background: #ffffff;
+                    font-size: 40px;
+                    font-family: Catamaran, sans-serif;
+                  "
+                >
+                  ML Hackathon<br />
+                </h2>
+                <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                  SOCIETY FOR ARTIFICIAL INTELLIGENCE AND DEEP LEARNING<br />
+                </h1>
+                <p style="background: #ffffff">
+                  Show off your Machine Learning skills in this Hackathon
+                  starting July 5th!<br />There will be one problem statement
+                  for which you would need to make a submission before 12th of
+                  July, A very basic solution will be provided to help you get
+                  started. The event will be held on Kaggle. Make sure you have
+                  an account on Kaggle<br />
+                </p>
+                <div class="row">
+                  <div class="col text-start">
+                    <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                  </div>
+                  <div class="col">
+                    <p style="color: rgb(122, 204, 109)">
+                      Weeklong[5th July - 12th July]<br />Allday<br />₹7000+<br />
+                    </p>
+                  </div>
+                </div>
+                <button
+                class="btn btn-primary border rounded-0"
+                type="button"
+                style="
+                  background: #44cd5a;
+                  border-top-color: rgb(255, 255, 255);
+                  border-right-color: rgb(255, 255, 255);
+                  border-bottom-color: rgb(255, 255, 255);
+                  border-left-color: rgb(252, 252, 252);
+                "
+              >
+                Register
+              </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="
+            background: #f7f7f7;
+            border-color: rgb(43, 234, 26);
+            border-radius: 17px;
+          "
+        >
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/CSS.png?h=fc9320a29a8c444cb9ab1a75792c5de9"
+                style="height: 302"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4" style="font-size: 40px">
+                CSS Battles&nbsp;<br />
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">
+                Devsoc
+              </h1>
+              <p class="text-start" style="color: rgb(33, 37, 41)">
+                lorem ipsum&nbsp;<br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    11th July<br />3 PM - 6 PM<br />₹5000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="background: #ffffff; border-radius: 17px"
+        >
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <img
+                class="
+                  img-thumbnail img-fluid
+                  d-flex
+                  flex-grow-1 flex-shrink-1
+                  justify-content-center
+                  align-content-end
+                "
+                src="assets/img/mayd.jpeg?h=49744387bf00e5880f094da0c95e57bb"
+                style="max-height: 30vh"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <h2
+                class="display-4"
+                style="
+                  background: #ffffff;
+                  font-size: 40px;
+                  font-family: Catamaran, sans-serif;
+                "
+              >
+                MayDay Mysteries
+              </h2>
+              <h1 style="font-size: 17px; color: #44cd5a">AERO-D<br /></h1>
+              <p>
+                Our flagship homage to Air Crash Investigation; a competition
+                that allows you to step into the shoes of an air accident
+                investigating officer. Participants will be provided with
+                detailed scenarios of simulated plane crashes, with crash
+                reports, maintenance logs, weather reports, radar information,
+                and most crucially, CVR and FDR data. The participants will have
+                to come up with a detailed report describing the causes and
+                timeline of the crash and recommend safety features for the
+                future. So let your minds take off and work together to decipher
+                a real-life crisis.
+              </p>
+              <p style="background: #ffffff"></p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">Date<br />Time<br />Prizes</p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    9th July<br />6PM - 8PM<br />₹3000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div
+          class="row align-items-center"
+          style="
+            background: #f7f7f7;
+            border-color: rgb(43, 234, 26);
+            border-radius: 17px;
+          "
+        >
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img
+                class="img-thumbnail img-fluid"
+                src="assets/img/art.jpeg?h=b94bb690c3c1c4328e25b69eccae2746"
+                style="max-height: 33vh"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5">
+              <h2 class="display-4" style="font-size: 40px">
+                Innovation Quiz<br />
+              </h2>
+              <h1 style="font-size: 17px; color: rgb(68, 205, 90)">IEEE</h1>
+              <p class="text-start" style="color: rgb(33, 37, 41)">
+                Test your technical skills along with your sharp intuition for gambling in this  auction based event. You will be given credits you can use to spend on a set of questions which differ from topic to topic and also differ in difficulty level, each awarding points based on these criteria.. Spend credits, solve sets and earn points. It will be held through discord. Sign up for this insightful,rush thrilled contest.<br />
+              </p>
+              <div class="row">
+                <div class="col text-start">
+                  <p style="width: 135px">
+                    Date<br /><br />Time<br /><br />Prizes
+                  </p>
+                </div>
+                <div class="col">
+                  <p style="color: rgb(122, 204, 109)">
+                    8th July - 11th July<br/>All Day<br /><br />₹5000<br />
+                  </p>
+                </div>
+              </div>
+              <button
+              class="btn btn-primary border rounded-0"
+              type="button"
+              style="
+                background: #44cd5a;
+                border-top-color: rgb(255, 255, 255);
+                border-right-color: rgb(255, 255, 255);
+                border-bottom-color: rgb(255, 255, 255);
+                border-left-color: rgb(252, 252, 252);
+              "
+            >
+              Register
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer
+      class="
+        d-flex
+        flex-column flex-grow-1 flex-shrink-1 flex-fill
+        justify-content-center
+        align-items-center align-content-center
+        py-5
+        bg-black
+      "
+      style="width: 100vw; height: 10vh"
+    >
+      <div class="container">
+        <p
+          class="
+            text-center text-white
+            d-flex
+            flex-column flex-grow-1 flex-shrink-1 flex-fill
+            justify-content-center
+            align-items-center align-content-center
+            flex-wrap
+            m-0
+            small
+          "
+        >
+          <br />Copyright&nbsp;© CTE 2021&nbsp;<br />Designed and Developed by
+          Shreyas V, Darshan Khade<br />Special
+          Thanks to CTE PR Team for the images<br /><br />
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bs-init.js?h=7563c52cc0a72a92d96ce0159b71241c"></script>
+  </body>
+</html>
